@@ -1,0 +1,47 @@
+.form {
+  height: 453px;
+  width: 400px;
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 32px;
+}
+
+.inputSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.inputSection > input {
+  height: 51px;
+  width: 332;
+  border-radius: 8px;
+  padding-left: 17px;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 18px;
+}
+
+.outputSection {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+.output {
+  width: 100%;
+  margin: 10px 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
